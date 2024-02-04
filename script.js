@@ -1,4 +1,4 @@
-window.promises = [p1,p2,p3,p4,p5];
+
 let div= document.querySelector("#output");
 
 // Do not change the code above this
@@ -30,7 +30,8 @@ const p5 = new Promise((resolve,reject)=>{
 		resolve("P5 is resolve");
 	},5000)
 })
-Promise.any([p1,p2,p3,p4,p5])
+window.promises = [p1,p2,p3,p4,p5];
+Promise.any(promises)
 .then((data)=>{
 	div.innerHTML = data;
 })
