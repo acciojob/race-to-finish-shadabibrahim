@@ -1,4 +1,4 @@
-window.promises = [];
+window.promises = [p1,p2,p3,p4,p5];
 let div= document.querySelector("#output");
 
 // Do not change the code above this
