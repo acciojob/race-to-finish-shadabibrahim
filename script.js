@@ -1,5 +1,5 @@
 window.promises = [];
-let div= document.querSelector("#output");
+let div= document.querySelector("#output");
 
 // Do not change the code above this
 // add your promises to the array `promises`
